@@ -72,7 +72,7 @@ Under __*Volumes*__ click on *"Add volume"*
 Now we will configure the ML container for training 
 Under __*Container Definitions*__ click on *"Add container"* 
 - __*Container Name*__ : *wine-train-container*
-- __*Image*__ : *kruthika547nayak/winetrain:latest*
+- __*Image*__ : *sakshi2207shah/winetrain:latest*
 - __*Memory Limits*__ : *Soft Limit, 512
 
 Under __*Mount points*__ ,  
