@@ -120,7 +120,7 @@ In order to run the prediction conatiner docker package is required. To install 
 ```
 - The docker is pulled with the following command 
 ```Console
-    $ sudo docker pull kruthika547nayak/winetest:latest
+    $ sudo docker pull sakshi2207shah/winetest:latest
 ```
 - Run the following command to verify if the container has been installed
 ```Console
@@ -130,12 +130,12 @@ In order to run the prediction conatiner docker package is required. To install 
 ### Running the docker container 
 After installing the image, two files must be present in order to run the container application properly (*Modelfile* and *Inputdataset.csv*). These two files can be uploaded on to the instances using WinSCP. To run the container use the following command
 ```Console
-  $ sudo docker run -v /home/ec2-user/:job kruthika547nayak/winetest:latest TestDataset.csv
+  $ sudo docker run -v /home/ec2-user/:job sakshi2207shah/winetest:latest TestDataset.csv
 ```
 where ,
 `/home/ec2-user` is the path to the home directory in the instance.
 `/job` is the path mapped inside the conatiner
-`kruthika547nayak/winetest:latest` is the name of prediction docker conatiner
+`sakshi2207shah/winetest:latest` is the name of prediction docker conatiner
 `TestDataset.csv` is the name of the input file for prediction testing.
 
 *Note: For the above command to work the Modelfile and TestDataset.csv must be present at /home/ec2-user*
