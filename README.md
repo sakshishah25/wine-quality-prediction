@@ -10,12 +10,6 @@ The Datasets used can be found in *dataset* folder
 
 The links for the Docker Container uploaded on Docker hub can be found in [Links](#links)
  
-# Links
-- **Github link** - https://github.com/Kruthika928/wine-quality-prediction-pa2 
- 
-- **Docker container for training** : [kruthika547nayak/winetrain:latest](https://hub.docker.com/repository/docker/kruthika547nayak/winetrain)
-
-- **Docker container for testing** : [kruthika547nayak/winetest:latest](https://hub.docker.com/repository/docker/kruthika547nayak/winetest)
 
 # Table of Contents
 1) [Setting up EC2 Cluster on AWS](#setting-up-ec2-cluster-on-aws)
